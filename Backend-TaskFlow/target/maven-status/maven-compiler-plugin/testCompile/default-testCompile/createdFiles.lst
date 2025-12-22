@@ -1,0 +1,4 @@
+com\example\taskflow\controller\AuthControllerTest.class
+com\example\taskflow\service\TaskServiceTest.class
+com\example\taskflow\TaskFlowApplicationTests.class
+com\example\taskflow\service\ProjectServiceTest.class
