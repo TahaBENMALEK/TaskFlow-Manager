@@ -3,7 +3,7 @@
  * Mirrors the backend User entity structure.
  */
 export interface User {
-  id: number;
+  id?: number;
   email: string;
   fullName: string;
 }

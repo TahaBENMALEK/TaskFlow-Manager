@@ -63,9 +63,9 @@ export class ProjectDetailComponent implements OnInit {
    * Loads tasks for the current project.
    */
   loadTasks(projectId: number): void {
-    this.taskService.getProjectTasks(projectId).subscribe({
-      next: (tasks) => {
-        this.tasks = tasks.sort((a, b) =>
+    this.taskService.getTasksByProjectId(projectId).subscribe({
+      next: (tasks: Task[]) => {
+        this.tasks = tasks.sort((a: Task, b: Task) =>
           new Date(a.dueDate).getTime() - new Date(b.dueDate).getTime()
         );
         this.isLoading = false;

@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { ProjectService } from '../../services/project.service';
 import { AuthService } from '../../services/auth.service';
 import { Project, ProjectRequest } from '../../models/project.model';
+import { User } from '../../models/user.model';
 
 @Component({
   selector: 'app-projects',
@@ -24,7 +25,7 @@ export class ProjectsComponent implements OnInit {
     description: ''
   };
 
-  currentUser = this.authService.getCurrentUser();
+  currentUser: User | null = null;
 
   constructor(
     private projectService: ProjectService,
