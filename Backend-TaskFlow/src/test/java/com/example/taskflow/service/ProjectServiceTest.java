@@ -41,7 +41,7 @@ class ProjectServiceTest {
     void setUp() {
         testUser = new User();
         testUser.setId(1L);
-        testUser.setEmail("test@hahn.com");
+        testUser.setEmail("test@inpt.com");
         testUser.setFullName("Test User");
 
         testProject = new Project();

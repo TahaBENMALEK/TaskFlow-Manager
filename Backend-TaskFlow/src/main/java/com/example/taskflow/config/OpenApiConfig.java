@@ -15,8 +15,8 @@ import org.springframework.context.annotation.Configuration;
                 version = "1.0",
                 description = "Task Management System API Documentation",
                 contact = @Contact(
-                        name = "Hahn Software Morocco",
-                        email = "contact@hahn.com"
+                        name = "INE Alumni Software Morocco",
+                        email = "contact@INEAlumni.com"
                 )
         ),
         servers = {
