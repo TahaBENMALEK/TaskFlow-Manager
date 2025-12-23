@@ -1,12 +1,17 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
+/**
+ * Root component - application entry point.
+ * Contains only router outlet for navigation.
+ */
 @Component({
   selector: 'app-root',
+  standalone: true,
   imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  template: '<router-outlet></router-outlet>',
+  styles: []
 })
 export class AppComponent {
-  title = 'Frontend-TaskFlow';
+  title = 'TaskFlow';
 }
