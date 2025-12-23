@@ -22,6 +22,7 @@ C:\Users\info\Desktop\projects\TaskFlow-Manager\Backend-TaskFlow\src\main\java\c
 C:\Users\info\Desktop\projects\TaskFlow-Manager\Backend-TaskFlow\src\main\java\com\example\taskflow\service\UserService.java
 C:\Users\info\Desktop\projects\TaskFlow-Manager\Backend-TaskFlow\src\main\java\com\example\taskflow\controller\ProjectController.java
 C:\Users\info\Desktop\projects\TaskFlow-Manager\Backend-TaskFlow\src\main\java\com\example\taskflow\service\TaskService.java
+C:\Users\info\Desktop\projects\TaskFlow-Manager\Backend-TaskFlow\src\main\java\com\example\taskflow\config\CorsConfig.java
 C:\Users\info\Desktop\projects\TaskFlow-Manager\Backend-TaskFlow\src\main\java\com\example\taskflow\dto\LoginRequest.java
 C:\Users\info\Desktop\projects\TaskFlow-Manager\Backend-TaskFlow\src\main\java\com\example\taskflow\security\JwtUtil.java
 C:\Users\info\Desktop\projects\TaskFlow-Manager\Backend-TaskFlow\src\main\java\com\example\taskflow\service\AuthService.java

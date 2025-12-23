@@ -31,7 +31,7 @@ class AuthControllerTest {
     @Test
     void login_ValidCredentials_ReturnsToken() throws Exception {
         LoginRequest request = new LoginRequest();
-        request.setEmail("taha@hahn.com");
+        request.setEmail("taha@inpt.com");
         request.setPassword("password123");
 
         mockMvc.perform(post("/api/auth/login")
@@ -39,13 +39,13 @@ class AuthControllerTest {
                         .content(objectMapper.writeValueAsString(request)))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.token").exists())
-                .andExpect(jsonPath("$.email").value("taha@hahn.com"));
+                .andExpect(jsonPath("$.email").value("taha@inpt.com"));
     }
 
     @Test
     void login_InvalidCredentials_ReturnsUnauthorized() throws Exception {
         LoginRequest request = new LoginRequest();
-        request.setEmail("wrong@hahn.com");
+        request.setEmail("wrong@inpt.com");
         request.setPassword("wrongpassword");
 
         mockMvc.perform(post("/api/auth/login")

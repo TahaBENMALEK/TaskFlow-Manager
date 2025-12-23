@@ -44,7 +44,7 @@ class TaskServiceTest {
     void setUp() {
         testUser = new User();
         testUser.setId(1L);
-        testUser.setEmail("test@hahn.com");
+        testUser.setEmail("test@inpt.com");
 
         testProject = new Project();
         testProject.setId(1L);

@@ -24,5 +24,6 @@ com\example\taskflow\service\TaskService.class
 com\example\taskflow\repository\UserRepository.class
 com\example\taskflow\model\Task.class
 com\example\taskflow\config\OpenApiConfig.class
+com\example\taskflow\config\CorsConfig.class
 com\example\taskflow\repository\TaskRepository.class
 com\example\taskflow\exception\GlobalExceptionHandler$ErrorResponse.class
