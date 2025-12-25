@@ -128,7 +128,7 @@ docker-compose up --build -d
 
 ### Step 4: Access Application
 
-- **Frontend:** http://localhost:4200
+- **Frontend:** http://localhost
 - **Backend API:** http://localhost:8080
 - **Swagger UI:** http://localhost:8080/swagger-ui/index.html
 
@@ -450,7 +450,7 @@ The application comes with pre-seeded test users:
 
 ```
 User 1:
-Email: taha@helala.com
+Email: taha@inpt.com
 Password: password123
 
 User 2:
