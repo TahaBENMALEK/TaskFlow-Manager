@@ -65,7 +65,7 @@ Create `application-dev.properties`:
 ```properties
 # Database
 spring.datasource.url=jdbc:postgresql://localhost:5433/taskflow
-spring.datasource.username=your_username
+spring.datasource.username=your_username(or just rename .env.example to .env)
 spring.datasource.password=your_password
 
 # JWT
