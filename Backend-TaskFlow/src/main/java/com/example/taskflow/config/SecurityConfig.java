@@ -59,7 +59,8 @@ public class SecurityConfig {
                                 "/v3/api-docs/**",
                                 "/api-docs/**",
                                 "/swagger-resources/**",
-                                "/webjars/**"
+                                "/webjars/**",
+                                "/actuator/health"
                         ).permitAll()
                         // All other endpoints require authentication
                         .anyRequest().authenticated()

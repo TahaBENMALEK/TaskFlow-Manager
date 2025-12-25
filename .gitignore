@@ -1,8 +1,15 @@
 # Compiled class file
 *.class
 
-# Log file
+# Docker
 *.log
+
+# Backend
+Backend-TaskFlow/target/
+
+# Frontend
+Frontend-TaskFlow/node_modules/
+Frontend-TaskFlow/dist/
 
 # BlueJ files
 *.ctxt
@@ -25,5 +32,10 @@ replay_pid*
 
 # IDE folders
 .idea/
+.vscode/
 
+# Environment variables - NEVER COMMIT
 .env
+.env.local
+.env.production
+.env.*.local

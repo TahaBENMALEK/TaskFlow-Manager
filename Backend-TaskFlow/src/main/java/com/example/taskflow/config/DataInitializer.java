@@ -20,12 +20,12 @@ public class DataInitializer implements CommandLineRunner {
     public void run(String... args) {
         if (userRepository.count() == 0) {
             // Create test users
-            createUser("taha@inpt.com", "password123", "Taha Benjelloun");
-            createUser("test@inpt.com", "password123", "Test User");
+            createUser("taha@inpt.com", "password123", "Taha BENMALEK");
+            createUser("test@helala.com", "password123", "Vamos HB07)");
 
             log.info("✅ Test users created successfully");
             log.info("📧 Email: taha@inpt.com | Password: password123");
-            log.info("📧 Email: test@inpt.com | Password: password123");
+            log.info("📧 Email: test@helala.com | Password: password123");
         }
     }
 
